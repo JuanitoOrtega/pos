@@ -73,7 +73,7 @@
                   <div class="form-group">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-users"></i></span>
-                      <select class="form-control" id="seleccionarCliente" name="seleccionarCliente" required>
+                      <select class="form-control" id="seleccionarCliente" name="seleccionarCliente" style="height: 36px;" required>
                         <option value="<?php echo $cliente["id"]; ?>"><?php echo $cliente["nombre"]; ?></option>
 
                         <?php
